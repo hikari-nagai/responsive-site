@@ -1,0 +1,85 @@
+/* color*/
+/* global*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #2f4f4f;
+    font-size: 16px;
+    font-size: 1.6rem;
+    background-color: #fff8dc;
+}
+
+h2{
+    color:#ffffff;
+}
+
+header{
+    height: 500px;
+    background-image: url(../responsive-site2/images/main.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 768px){
+    header{
+        hight: 250px;
+    }
+}
+
+main{
+    padding: 30px;
+}
+main .main-title{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+main .showcase{
+    display: flex;
+    justify-content: space-between;
+}
+main .showcase .box{
+    width: 30%;
+    background: #ffffff;
+    text-align: center;
+}
+main .showcase .box .box-title{
+    padding: 30px 0;
+    background: #5f9ea0;
+    margin-top: 0;
+}
+main .showcase .box .box-text{
+    padding: 20px 20px;
+}
+
+@media (max-width: 768px){
+    main .showcase{
+        flex-direction:column;
+    }
+    main .showcase .box{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
+
+footer{
+    padding: 30px 0;
+    text-align:center;
+    background: #5f9ea0;
+}
+footer .footer-text{
+    font-size: 1.rem;
+    margin-bottom: 20px;
+}
+footer .footer-button{
+    width: 300px;
+    display: inline-block;
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
