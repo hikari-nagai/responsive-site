@@ -5,10 +5,10 @@ html{
 }
 
 body{
-    color: #2f4f4f;
     font-size: 16px;
     font-size: 1.6rem;
     background-color: #fff8dc;
+    margin:0;
 }
 
 h2{
@@ -21,10 +21,9 @@ header{
     background-size: cover;
     background-position: center center;
 }
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
     header{
-        hight: 250px;
+        height: 250px;
     }
 }
 
@@ -56,8 +55,8 @@ main .showcase .box .box-text{
 }
 
 @media (max-width: 768px){
-    main .showcase{
-        flex-direction:column;
+    main .showcase {
+        flex-direction: column;
     }
     main .showcase .box{
         width:100%;
@@ -71,7 +70,7 @@ footer{
     background: #5f9ea0;
 }
 footer .footer-text{
-    font-size: 1.rem;
+    font-size: 1.6rem;
     margin-bottom: 20px;
 }
 footer .footer-button{
